@@ -1,0 +1,27 @@
+{
+  "name": "CFDA",
+  "version": "1.0",
+  "description": "One-Click Access to the CFDA (Portal)",
+  "permissions": ["activeTab", "declarativeContent", "storage", "*://*/*"],
+  //"options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/cfda-logo16.png",
+      "32": "images/cfda-logo32.png",
+      "48": "images/cfda-logo48.png",
+      "128": "images/cfda-logo128.png"
+    }
+  },
+  "icons": {
+    "16": "images/cfda-logo16.png",
+    "32": "images/cfda-logo32.png",
+    "48": "images/cfda-logo48.png",
+    "128": "images/cfda-logo128.png"
+  },
+  "manifest_version": 2
+}
